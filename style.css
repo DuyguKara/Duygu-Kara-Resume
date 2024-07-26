@@ -1,0 +1,352 @@
+
+.navbar {
+    background-color: #0F1035;
+}
+
+.navbar-dark {
+    --bs-navbar-color: rgba(255, 255, 255) !important;
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255) !important;
+}
+
+.navbar-nav .nav-link {
+font-family: Montserrat, sans-serif;
+}
+
+html,body {
+    background: linear-gradient(300deg, #0F1035, #365486, #7FC7D9);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.flex-container {
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700 !important;
+    padding-top: 10rem;
+    text-align: center;
+    color: #FFD105 !important;
+    text-shadow: 2px 2px #0a0b2460;
+  }
+
+  .flex-container div p {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    font-size: 29px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: white;
+    text-shadow: 2px 2px #0a0b2480;
+  }
+
+.container {
+    margin-top: 70px;
+    color: white;
+    width: 100%;
+}
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-content img {
+    max-width: 430px;
+    max-height: 430px;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.second-content-p div p {
+    padding: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container-second {
+    color: #DCF2F1;
+    background-color: #0f1035b3;
+    padding: 20px 30px 20px 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+h2 {
+    margin-left: 62px;
+    color: #FFD105 !important;
+    text-shadow: 2px 2px #0a0b2480;
+}
+
+li {
+    margin: 9px 0px 9px 0px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.education {
+    border-right: 3px dashed #0a0b24;
+}
+
+@media screen and (max-width:992px) {
+    .education {
+        border-right: none;
+        border-bottom: 3px dashed #0a0b24;
+    }
+
+    section:nth-child(4) > div > div > div:nth-child(3){
+        border-bottom: none;
+    }
+
+    section:nth-child(3) > div > div > div {
+        border-bottom: none;
+    }
+
+    body > section:nth-child(5) > div > div > div:nth-child(4){
+        border-bottom: none;
+    }
+}
+
+h4 {
+    color: white !important;
+}
+
+.p-item {
+    margin: 0px !important;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.fle {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0f1035b3;
+    padding: 25px 0px 25px 0px;
+}
+
+@media screen and (max-width:992px) {
+    .fle {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 10px 0px 10px 0px;
+    }
+    
+}
+
+.card {
+    min-height: 550px;
+}
+
+.btn {
+    background-color: #FFD105 !important;
+    color: #0F1035 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bold !important;
+}
+
+.card-title {
+    color: #365486 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bold !important;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.link-class {
+    text-align: center;
+    background-color: #0f1035b3;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 25px;
+}
+
+.grid-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 30px;
+    background-color: #0f1035b3;
+    gap: 1rem;
+    padding: 35px 20px 35px 20px;
+    color: white;
+}
+
+div.link-class > p {
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+}
+
+.grid-item {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.content {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.skill-title {
+    color: #FFD105;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.skill-content {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:1200px) {
+
+    .grid-skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .grid-skills {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .skill-title {
+        font-size: 1.5rem;
+    }
+    
+    .skill-content {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .skill-title {
+        font-size: 1.2rem;
+    }
+    
+    .skill-content {
+        font-size: 1rem;
+    }
+}
+
+.contact-title {
+    color: white !important;
+    font-size: 2.5rem !important;
+    margin: 35px 0px 35px 0px !important;
+    text-align: center;
+    text-shadow: 5px 5px #0a0b2480;
+}
+
+.contact-flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.contact-content {
+    margin-top: 1rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem !important;
+}
+
+.icon-flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width:576px){
+    .contact-flexbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+#language {
+    border: 2px solid #a7abaa;
+    width: 5rem;
+    border-radius: 10%;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    padding: 6px !important;
+}
+
+.lang-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lang-click {
+    background-color: transparent;
+    border: 0px;
+    color: white;
+}
+
+.lang-color {
+    color: #FFD105;
+}
